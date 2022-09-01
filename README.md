@@ -25,17 +25,17 @@ The dataset includes credit card transaction data from a US government organizat
   - 522 new variables created in total
 
 ### Feature Selection:
-  - Filter: Kolmogorov-Smirnov (KS)
-  - Wrapper: Forward selection, Backward selection, SelectKBest
-  - Embedded: Lasso and Ridge regression
+  - **Filter**: Kolmogorov-Smirnov (KS)
+  - **Wrapper**: Forward selection, Backward selection, SelectKBest
+  - **Embedded**: Lasso and Ridge regression
   - Try 6 different assemblies for above methods to get 6 different sets of features to put into our models and see which subsets will have better performance
 
 ![Screen Shot 2022-09-01 at 2 40 38 PM](https://user-images.githubusercontent.com/96958028/188017946-e3aba2ad-0beb-4389-9f32-b06013d86922.png)
 
 ### Model Algorithms:
-  - 10 different supervised models explored and compared include Logistic Regression, Decision Tree, Random Forest, Boosted Tree, Gradient Boosting Tree, Catboost, XGboost, KNN, Support Vector Machine and Neural Network
-  - Best model: Neural Network, which could detect 60.28% fraudulent transactions in the top 3% of data
-  - Mean/Standard Deviation of FDR Score for each model:
+  - **10 different supervised models explored and compared**: Logistic Regression, Decision Tree, Random Forest, Boosted Tree, Gradient Boosting Tree, Catboost, XGboost, KNN, Support Vector Machine and Neural Network
+  - **Best model**: Neural Network, which could detect 60.28% fraudulent transactions in the top 3% of data
+  - **Mean/Standard Deviation of FDR Score for each model**:
 
 ![Screen Shot 2022-09-01 at 2 48 23 PM](https://user-images.githubusercontent.com/96958028/188018911-ca6f1297-3b2f-46be-b042-a3de98b0b0c5.png)
 
