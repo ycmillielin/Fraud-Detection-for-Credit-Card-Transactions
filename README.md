@@ -21,6 +21,8 @@ The dataset includes credit card transaction data from a US government organizat
   - **Benford’s law variables**: Measure whether the variables violate Benford's law
   - 522 new variables created in total
 
-### Feature Selection: Filter, Wrapper and Embedded method
-  - **Filter**: Apply Kolmogorov-Smirnov (KS) test, which is a measure to examine how well a given variable separates the distribution of frauds and non-frauds. Score and rank each feature by this KS score. The top 80 features are selected for further selection by wrapper methods
+### Feature Selection: Apply Filter(Kolmogorov-Smirnov (KS)), Wrapper(Forward selection, Backward selection, SelectKBest) and Embedded methods(Lasso and Ridge regression), try 6 different assemblies for these methods to get 6 different sets of features to put into our models and see which subsets will have better performance
+
+![Screen Shot 2022-09-01 at 2 40 38 PM](https://user-images.githubusercontent.com/96958028/188017946-e3aba2ad-0beb-4389-9f32-b06013d86922.png)
+
   
