@@ -36,5 +36,15 @@ The dataset includes credit card transaction data from a US government organizat
   - 10 different supervised models explored and compared include Logistic Regression, Decision Tree, Random Forest, Boosted Tree, Gradient Boosting Tree, Catboost, XGboost, KNN, Support Vector Machine and Neural Network
   - Best model: Neural Network, which could detect 60.28% fraudulent transactions in the top 3% of data
   - Mean/Standard Deviation of FDR Score for each model:
+
 ![Screen Shot 2022-09-01 at 2 48 23 PM](https://user-images.githubusercontent.com/96958028/188018911-ca6f1297-3b2f-46be-b042-a3de98b0b0c5.png)
 
+### Results:
+  - Model result: Neural Network model with variables from select K best method has the best performance of 60.28% FDR score at 3% in out-of-time data (the model can eliminate 60.28% of the fraud by declining 3% of the transactions)
+  - Card numbers and merch numbers are taken as time dependence examples to validate predictions and calculate financial impact at different population cutoffs
+  - Achieve $1.25 million expected annual savings by seting cutoff at 4%
+
+### Future works:
+  - May consult with domain experts to create more effective variables and perform insightful feature engineering
+  - Since the fraud label in this dataset is imbalanced, may try an oversampling method such as SMOTE to create new and artificial records
+  - May use different algorithms in the wrapper or try other wrappers such as exhaustive feature selection in the feature selection process
