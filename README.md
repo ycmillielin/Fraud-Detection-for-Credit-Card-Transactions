@@ -1,5 +1,8 @@
 # Fraud-Detection-for-Credit-Card-Transactions
 
+### Goal: 
+To maximize fraud detection rate (FDR) on credit card transaction data 
+
 ### Description of data:
 The dataset includes credit card transaction data from a US government organization in 2006. The purpose is to identify transaction fraud. The dataset contains 10 fields and has 96,753 records, with 1,059 records labeled as fraud. Two of the fields are numerical and the others are categorical.
 
@@ -29,4 +32,9 @@ The dataset includes credit card transaction data from a US government organizat
 
 ![Screen Shot 2022-09-01 at 2 40 38 PM](https://user-images.githubusercontent.com/96958028/188017946-e3aba2ad-0beb-4389-9f32-b06013d86922.png)
 
-  
+### Model Algorithms:
+  - 10 different supervised models explored and compared include Logistic Regression, Decision Tree, Random Forest, Boosted Tree, Gradient Boosting Tree, Catboost, XGboost, KNN, Support Vector Machine and Neural Network
+  - Best model: Neural Network, which could detect 60.28% fraudulent transactions in the top 3% of data
+  - Mean/Standard Deviation of FDR Score for each model:
+![Screen Shot 2022-09-01 at 2 48 23 PM](https://user-images.githubusercontent.com/96958028/188018911-ca6f1297-3b2f-46be-b042-a3de98b0b0c5.png)
+
