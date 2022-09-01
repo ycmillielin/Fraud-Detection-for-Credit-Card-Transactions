@@ -25,7 +25,7 @@ The dataset includes credit card transaction data from a US government organizat
   - 522 new variables created in total
 
 ### Feature Selection:
-  - **Filter**: Kolmogorov-Smirnov (KS)
+  - **Filter**: Kolmogorov-Smirnov (KS) test
   - **Wrapper**: Forward selection, Backward selection, SelectKBest
   - **Embedded**: Lasso and Ridge regression
   - Try 6 different assemblies for above methods to get 6 different sets of features to put into our models and see which subsets will have better performance
