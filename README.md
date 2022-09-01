@@ -19,3 +19,8 @@ The dataset includes credit card transaction data from a US government organizat
   - **Relative velocity variables**: Measure the ratio of frequency of a transaction or amount spent in a small time window with a larger time window
   - **Day of week and state risk table**: Measurement of the probability of finding fraud on a certain day of a week or a certain state
   - **Benford’s law variables**: Measure whether the variables violate Benford's law
+  - 522 new variables created in total
+
+### Feature Selection: Filter, Wrapper and Embedded method
+  - **Filter**: Apply Kolmogorov-Smirnov (KS) test, which is a measure to examine how well a given variable separates the distribution of frauds and non-frauds. Score and rank each feature by this KS score. The top 80 features are selected for further selection by wrapper methods
+  
