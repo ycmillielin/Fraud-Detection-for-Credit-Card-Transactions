@@ -43,6 +43,8 @@ The dataset includes credit card transaction data from a US government organizat
   - Model result: Neural Network model with variables from select K best method has the best performance of 60.28% FDR score at 3% in out-of-time data (the model can eliminate 60.28% of the fraud by declining 3% of the transactions)
   - Card numbers and merch numbers are taken as time dependence examples to validate predictions and calculate financial impact at different population cutoffs
   - Achieve $1.25 million expected annual savings by seting cutoff at 4%
+  ![Screen Shot 2022-09-19 at 4 51 48 PM](https://user-images.githubusercontent.com/96958028/191138606-e06b78e5-a536-41cb-bdee-4a085fec30f1.png)
+
 
 ### Future works:
   - May consult with domain experts to create more effective variables and perform insightful feature engineering
